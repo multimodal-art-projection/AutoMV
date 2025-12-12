@@ -71,7 +71,7 @@ AutoMV is a training-free system, relying on MIR tools and LLM/VLM APIs.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/xxx/AutoMV.git
+git clone https://github.com/multimodal-art-projection/AutoMV.git
 cd AutoMV
 ```
 
