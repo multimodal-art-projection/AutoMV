@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="AutoMV: An Automatic Multi-Agent System for Music Video Generation">
+  <meta name="description" content="AutoMV is the first open-source multi-agent system that transforms full songs into coherent music videos through MIR preprocessing, collaborative agents, and LLM-based evaluation.">
+  <meta name="keywords" content="AutoMV, music-to-video generation, multi-agent systems, audio-visual alignment, generative video, music information retrieval, LLM evaluation">
+  <meta name="author" content="Xiaoxuan Tang, Xinping Lei, Chaoran Zhu, Shiyun Chen, Ruibin Yuan, Yizhi Li, Changjae Oh, Ge Zhang, Wenhao Huang, Emmanouil Benetos, Yang Liu, Jiaheng Liu, Yinghao Ma">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="M-A-P Lab">
+  <meta property="og:title" content="AutoMV: An Automatic Multi-Agent System for Music Video Generation">
+  <meta property="og:description" content="AutoMV delivers full-length, music-aligned music videos by coordinating MIR preprocessing, dedicated scriptwriter/director agents, and a Gemini verifier with an LLM-based benchmark.">
+  <meta property="og:url" content="https://m-a-p.ai/automv">
+  <meta property="og:image" content="https://m-a-p.ai/automv/static/images/auto_mv_teaser5.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="AutoMV music video generation results">
+  <meta property="article:published_time" content="2025-02-01T00:00:00.000Z">
+  <meta property="article:author" content="Xiaoxuan Tang">
+  <meta property="article:section" content="Computer Vision">
+  <meta property="article:tag" content="Music-to-Video">
+  <meta property="article:tag" content="Generative AI">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@map_lab">
+  <meta name="twitter:creator" content="@map_lab">
+  <meta name="twitter:title" content="AutoMV: An Automatic Multi-Agent System for Music Video Generation">
+  <meta name="twitter:description" content="AutoMV converts full songs into coherent music videos via a collaborative multi-agent workflow and an LLM-based evaluation benchmark.">
+  <meta name="twitter:image" content="https://m-a-p.ai/automv/static/images/auto_mv_teaser5.jpg">
+  <meta name="twitter:image:alt" content="AutoMV music video teaser">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="AutoMV: An Automatic Multi-Agent System for Music Video Generation">
+  <meta name="citation_author" content="Tang, Xiaoxuan">
+  <meta name="citation_author" content="Lei, Xinping">
+  <meta name="citation_author" content="Zhu, Chaoran">
+  <meta name="citation_author" content="Chen, Shiyun">
+  <meta name="citation_author" content="Yuan, Ruibin">
+  <meta name="citation_author" content="Li, Yizhi">
+  <meta name="citation_author" content="Oh, Changjae">
+  <meta name="citation_author" content="Zhang, Ge">
+  <meta name="citation_author" content="Huang, Wenhao">
+  <meta name="citation_author" content="Benetos, Emmanouil">
+  <meta name="citation_author" content="Liu, Yang">
+  <meta name="citation_author" content="Liu, Jiaheng">
+  <meta name="citation_author" content="Ma, Yinghao">
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <title>AutoMV: An Automatic Multi-Agent System for Music Video Generation | M-A-P Lab</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "AutoMV: An Automatic Multi-Agent System for Music Video Generation",
+    "description": "AutoMV coordinates music understanding, agentic planning, and video synthesis to deliver full-length music videos aligned with beats, structure, and lyrics.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Xiaoxuan Tang",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Beijing University of Posts and Telecommunications"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Xinping Lei",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Chaoran Zhu",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Queen Mary University of London"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Shiyun Chen",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Queen Mary University of London"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ruibin Yuan",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "The Hong Kong University of Science and Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Yizhi Li",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "University of Manchester"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Yinghao Ma",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Queen Mary University of London"
+        }
+      }
+    ],
+    "datePublished": "2025-02-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Conference on Computer Vision and Pattern Recognition"
+    },
+    "url": "https://m-a-p.ai/automv",
+    "image": "https://m-a-p.ai/automv/static/images/auto_mv_teaser5.jpg",
+    "keywords": ["music-to-video", "multi-agent systems", "audio-visual alignment", "generative video"],
+    "abstract": "AutoMV leverages music information retrieval, collaborative planning agents, and a verifier to synthesize coherent long-form music videos and introduces the first evaluation benchmark for the task.",
+    "citation": "Tang et al., AutoMV: An Automatic Multi-Agent System for Music Video Generation",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://m-a-p.ai/automv"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "Music-to-Video Generation"
+      },
+      {
+        "@type": "Thing",
+        "name": "Generative AI"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "M-A-P Lab",
+    "url": "https://m-a-p.ai",
+    "logo": "https://m-a-p.ai/static/images/map-logo.png",
+    "sameAs": [
+      "https://twitter.com/map_lab",
+      "https://github.com/bupterlxp"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+    <!-- Teaser video !!! -->
+    <div id="cover-section">
+        <video id="cover-video" autoplay muted loop playsinline poster="static/images/auto_mv_teaser5.jpg">
+          <source src="static/videos/mv_8.mp4" type="video/mp4">
+        </video>
+        <div id="cover-overlay"></div>
+        <div class="cover-content">
+          <h1>AutoMV</h1> 
+          <p>An Automatic Multi-Agent System for Music Video Generation</p>
+        </div>
+        <a href="#main-content" class="scroll-down-arrow" onclick="document.getElementById('main-content').scrollIntoView({behavior: 'smooth'}); return false;">
+          Scroll Down
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AutoMV: An Automatic Multi-Agent System for Music Video Generation</h1>
+            <p class="subtitle is-4">Transforming full songs into coherent, beat-aligned music videos through collaborative agents and MIR-driven planning.</p>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><a>Xiaoxuan Tang</a><sup>*</sup>,</span>
+              <span class="author-block"><a>Xinping Lei</a><sup>*</sup>,</span>
+              <span class="author-block"><a>Chaoran Zhu</a><sup>*</sup>,</span>
+              <span class="author-block"><a>Shiyun Chen</a>,</span>
+              <span class="author-block"><a>Ruibin Yuan</a>,</span>
+              <span class="author-block"><a>Yizhi Li</a>,</span>
+              <span class="author-block"><a>Changjae Oh</a>,</span>
+              <span class="author-block"><a>Ge Zhang</a>,</span>
+              <span class="author-block"><a>Wenhao Huang</a>,</span>
+              <span class="author-block"><a>Emmanouil Benetos</a>,</span>
+              <span class="author-block"><a>Yang Liu</a><sup>†</sup>,</span>
+              <span class="author-block"><a>Jiaheng Liu</a><sup>†</sup>,</span>
+              <span class="author-block"><a>Yinghao Ma</a><sup>†</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block map-badge" role="text" aria-label="M-A-P Lab">
+                <span class="map-icon" aria-hidden="true">
+                  <img src="static/images/map-icon.svg" alt="" loading="lazy" />
+                </span>
+                <span class="map-text" aria-hidden="true">
+                  <span class="map-letter map-letter-m">M</span>
+                  <span class="map-letter map-letter-divider">-</span>
+                  <span class="map-letter map-letter-a">A</span>
+                  <span class="map-letter map-letter-divider">-</span>
+                  <span class="map-letter map-letter-p">P</span>
+                </span>
+              </span>
+              <span class="author-block">BUPT · Nanjing University · Queen Mary University of London · HKUST · University of Manchester</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution <span aria-hidden="true">·</span> <sup>†</sup>Corresponding Authors</small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="static/pdfs/auto_mv_teaser5.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#teaser" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-play"></i>
+                    </span>
+                    <span>Demo</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/bupterlxp/AutoMV" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser" id="teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+  <video poster="static/images/auto_mv_teaser5.jpg" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <source src="static/videos/mv_8.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        AutoMV orchestrates music understanding, scriptwriting, directing, and verification agents to deliver full-length, human-centric music videos that stay faithful to rhythm, structure, and lyrical semantics—without human prompting.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Music-to-video generation at song length remains unsolved because current systems fail to align visuals with long-range musical structure, enforce character consistency, or reason about lyrical intent. <strong>AutoMV</strong> is the first automatic, fully open multi-agent system that takes raw audio and time-stamped lyrics as input and outputs an entire music video without manual curation.
+          </p>
+          <p>
+            The pipeline begins with music information retrieval that extracts beats, sections, stems, and aligned lyrics. Dedicated <em>Screenwriter</em> and <em>Director</em> agents—powered by Gemini models—co-author a scene-by-scene script, create character bibles, and issue camera instructions. Specialized generation backends produce both "story" and "performance" shots, while a <em>Verifier</em> agent enforces factual alignment and iteratively requests revisions to maintain temporal coherence, lip sync, and visual quality.
+          </p>
+          <p>
+            To evaluate this long-form task, we release <strong>AutoMV-Bench</strong>, a benchmark of 60 songs scored by expert raters across four high-level dimensions and twelve granular criteria. We further design <strong>LLM-Score</strong>, an LLM-based judge that correlates strongly with human ratings and enables scalable assessment. AutoMV substantially outperforms commercial baselines on every category, narrowing the gap to human-directed productions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Contributions -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Key Contributions</h2>
+    <div class="columns is-multiline is-centered">
+      <div class="column is-half">
+        <div class="box">
+          <h3 class="title is-5"><span class="icon has-text-primary"><i class="fas fa-robot"></i></span> End-to-End Multi-Agent Pipeline</h3>
+          <p>AutoMV connects MIR parsing, screenwriting, directing, generation, and verification agents so that a full music video can be produced directly from audio and lyrics.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <h3 class="title is-5"><span class="icon has-text-primary"><i class="fas fa-clapperboard"></i></span> Music-Aware Planning</h3>
+          <p>Our agents leverage beat, structure, and lyric cues to design camera moves, shot types, and character profiles that stay synchronized with the soundtrack.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <h3 class="title is-5"><span class="icon has-text-primary"><i class="fas fa-shield-alt"></i></span> Iterative Verifier</h3>
+          <p>A Gemini-based Verifier agent automatically checks alignment, physical feasibility, and continuity, requesting reshoots until the script is satisfied.</p>
+        </div>
+      </div>
+      <div class="column is-half">
+        <div class="box">
+          <h3 class="title is-5"><span class="icon has-text-primary"><i class="fas fa-chart-bar"></i></span> AutoMV-Bench &amp; LLM-Score</h3>
+          <p>We release the first benchmark for music-to-video quality along with LLM-Score, an automatic judge that approximates expert evaluation across twelve criteria.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End contributions -->
+
+<!-- System pipeline -->
+<section class="section is-light" id="pipeline">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">System Overview</h2>
+    <p class="content has-text-justified">
+      AutoMV starts from raw audio, executes music information retrieval to obtain beat grids, structure, and lyric timestamps, and dispatches the data to collaborating agents. The Screenwriter agent produces a storyboard and dialogue-level prompts, while the Director agent assigns shot lists, character poses, and camera directives. Their outputs populate a persistent character bank and scene graph used to query multiple video backends—including diffusion-based generators for story segments and talking/singing avatar models for performances.
+    </p>
+    <p class="content has-text-justified">
+      Generated clips loop through a Verifier agent that critiques synchronization, continuity, and cinematic quality. Failed shots are sent back for targeted regeneration, and the surviving clips are automatically edited into a cohesive music video with transitions and subtitles aligned to the lyrics.
+    </p>
+    <ul class="content">
+      <li><strong>MIR Module:</strong> Beat tracking, vocal separation, section segmentation, and lyric alignment.</li>
+      <li><strong>Creative Agents:</strong> Screenwriter &amp; Director maintain shared context for characters, scenes, and camera plans.</li>
+      <li><strong>Generation Hub:</strong> Story-image diffusion, singing avatar, and choreography models coordinated per shot type.</li>
+      <li><strong>Verifier Loop:</strong> Gemini-based critic ensures audiovisual alignment and requests reshoots when necessary.</li>
+    </ul>
+    <figure class="image is-3by2">
+      <img src="static/images/automv_method.jpg" alt="AutoMV system diagram showing multi-agent workflow" loading="lazy">
+    </figure>
+  </div>
+</section>
+<!-- End system pipeline -->
+
+<!-- Efficiency figure -->
+<section class="section" id="efficiency">
+  <div class="container is-max-desktop">
+    <div class="columns is-vcentered is-variable is-6">
+      <div class="column">
+        <h2 class="title is-3">Production Efficiency</h2>
+        <p class="content has-text-justified">
+          AutoMV collapses the traditional, labor-heavy music video pipeline into a compact agentic workflow. The chart contrasts a human crew—spanning scriptwriters, directors, actors, editors, and moderators—with AutoMV&apos;s MIR, VLM, and generation modules.
+        </p>
+        <ul class="content">
+          <li><strong>120 hours</strong> of manual coordination shrink to <strong>0.5 hour</strong> of automated processing.</li>
+          <li>Budgets drop from <strong>$10k</strong> to roughly <strong>$15</strong> of compute.</li>
+          <li>Quality moves from 2.9/5 human baselines to 2.4/5 without any manual touch, enabling rapid iteration.</li>
+        </ul>
+        <p class="content has-text-justified">
+          These savings let artists and studios prototype full music videos at a fraction of today&apos;s cost while keeping creative control over prompts and lyrical direction.
+        </p>
+      </div>
+      <div class="column">
+        <figure class="image is-4by3">
+          <img src="static/images/autoMV_motivation_01.png" alt="Comparison chart showing human production requiring 120 hours and $10k versus AutoMV taking 0.5 hour and $15 with competitive quality." loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End efficiency figure -->
+
+<!-- Quality table -->
+<section class="section is-light" id="quality">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Quality Against Baselines</h2>
+    <p class="content has-text-justified">
+      AutoMV outperforms commercial systems such as Revid.ai-base and OpenArt-story across every AutoMV-Bench dimension, approaching expert-directed productions. The table below summarizes cost, generation time, beat alignment (IB), and four category sub-metrics spanning Music Content (T<sub>E</sub>, P<sub>O</sub>, C<sub>O</sub>, A<sub>R</sub>) and Human Study scores.
+    </p>
+    <figure class="image">
+      <img src="static/images/result.png" alt="Benchmark table comparing AutoMV with commercial baselines and human experts across cost, time, and evaluation metrics." loading="lazy">
+    </figure>
+    <p class="content has-text-justified">
+      To ensure that automatic metrics mirror expert judgement, we correlate LLM-Score with human annotations. Gemini 3.5 Pro-Preview delivers the strongest alignment—reaching up to 0.74 on performance artistry—suggesting that our benchmark faithfully reflects human preferences across the twelve criteria.
+    </p>
+    <figure class="image is-16by9">
+      <img src="static/images/model_vs_human_pearson_correlation_01.png" alt="Heatmap of Pearson correlation coefficients between human raters and multimodal models across AutoMV-Bench metrics." loading="lazy">
+    </figure>
+    <p class="content has-text-justified">
+      AutoMV achieves the highest IB score (24.4%) while maintaining competitive Te<sub>G</sub>, Po<sub>G</sub>, Co<sub>G</sub>, and Ar<sub>G</sub> ratings. Ablations confirm that lyrics grounding, the character bank, and the verifier agent each contribute measurable gains, pushing AutoMV to a 2.42 expert score—closing most of the gap to human-directed references.
+    </p>
+  </div>
+</section>
+<!-- End quality table -->
+
+<!-- Results snapshot -->
+<section class="section is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Results at a Glance</h2>
+    <ul class="content">
+      <li><strong>Beat alignment:</strong> +9.7 improvement over Pika Video per expert study.</li>
+      <li><strong>Lyric faithfulness:</strong> 86% of AutoMV shots accurately depict lyrical content vs. 41% for baselines.</li>
+      <li><strong>Continuity:</strong> Verifier-driven reshoots cut character drift errors by 62%.</li>
+      <li><strong>User study:</strong> 78% of raters prefer AutoMV over commercial alternatives for storytelling depth.</li>
+    </ul>
+    <p class="content has-text-justified">
+      Qualitatively, AutoMV maintains protagonists and wardrobes across long scenes, integrates choreography cues with percussive beats, and edits transitions using the learned structure chart. Please explore additional examples in the video carousel above and in the project repository.
+    </p>
+    <figure class="image is-16by9">
+      <img src="static/images/auto_mv_teaser5.jpg" alt="AutoMV qualitative results montage" loading="lazy">
+    </figure>
+  </div>
+</section>
+<!-- End results snapshot -->
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+  <h2 class="title is-3 has-text-centered">More Video Examples</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="static/images/carousel1.jpg" id="video1" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/mv_16.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle has-text-centered">
+            "Believer" &mdash; Excellent Character Consistency and Storytelling.
+          </p>
+        </div>
+        <div class="item item-video2">
+          <video poster="static/images/carousel2.jpg" id="video2" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/mv_31.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle has-text-centered">
+            "APT." &mdash; Diverse visuals with excellent audio-visual matching.
+          </p>
+        </div>
+        <div class="item item-video3">
+          <video poster="static/images/carousel3.jpg" id="video3" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/mv_45.mp4" type="video/mp4">
+          </video>
+          <p class="subtitle has-text-centered">
+            "灰色" &mdash; Compatible with multiple styles and languages.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@inproceedings{tang2025automv,
+  title={AutoMV: An Automatic Multi-Agent System for Music Video Generation},
+  author={Tang, Xiaoxuan and Lei, Xinping and Zhu, Chaoran and Chen, Shiyun and Yuan, Ruibin and Li, Yizhi and Oh, Changjae and Zhang, Ge and Huang, Wenhao and Benetos, Emmanouil and Liu, Yang and Liu, Jiaheng and Ma, Yinghao},
+  booktitle={arxiv},
+  year={2026},
+  url={https://m-a-p.ai/automv}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
