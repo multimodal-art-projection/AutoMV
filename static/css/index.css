@@ -319,6 +319,29 @@ body {
   box-shadow: var(--shadow-md);
 }
 
+/* Quality demos carousel (reuse results-carousel behavior, but allow custom item names) */
+#quality-carousel {
+  margin-top: 1.25rem;
+}
+
+#quality-carousel .item {
+  max-width: clamp(720px, 81vw, 1080px);
+  margin: 0.75rem auto;
+  padding: 1rem;
+}
+
+#quality-carousel video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+}
+
+#quality-carousel .subtitle {
+  padding: 1rem;
+  margin-bottom: 0 !important;
+}
+
 /* Pagination and Misc Improvements */
 .slider-pagination .slider-page {
   background: var(--primary-color);

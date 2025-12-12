@@ -449,6 +449,29 @@
     <figure class="image is-16by9">
       <img src="static/images/model_vs_human_pearson_correlation_01.png" alt="Heatmap of Pearson correlation coefficients between human raters and multimodal models across AutoMV-Bench metrics." loading="lazy">
     </figure>
+
+    <hr>
+    <h3 class="title is-4 has-text-centered">Quality Demos</h3>
+    <div id="quality-carousel" class="carousel results-carousel">
+      <div class="item item-quality1">
+        <video id="quality-video1" controls playsinline muted loop preload="metadata" height="100%">
+          <source src="static/videos/AutoMV_demo1.mp4" type="video/mp4">
+        </video>
+        <p class="subtitle has-text-centered">Lazy Song</p>
+      </div>
+      <div class="item item-quality2">
+        <video id="quality-video2" controls playsinline muted loop preload="metadata" height="100%">
+          <source src="static/videos/AutoMV_demo2.mp4" type="video/mp4">
+        </video>
+        <p class="subtitle has-text-centered">灰色</p>
+      </div>
+      <div class="item item-quality3">
+        <video id="quality-video3" controls playsinline muted loop preload="metadata" height="100%">
+          <source src="static/videos/AutoMV_demo3.mp4" type="video/mp4">
+        </video>
+        <p class="subtitle has-text-centered">Golden Hour</p>
+      </div>
+    </div>
     <p class="content has-text-justified">
       AutoMV achieves the highest IB score (24.4%) while maintaining competitive Te<sub>G</sub>, Po<sub>G</sub>, Co<sub>G</sub>, and Ar<sub>G</sub> ratings. Ablations confirm that lyrics grounding, the character bank, and the verifier agent each contribute measurable gains, pushing AutoMV to a 2.42 expert score—closing most of the gap to human-directed references.
     </p>
