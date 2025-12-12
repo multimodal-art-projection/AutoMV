@@ -1,0 +1,4 @@
+exclude:
+  - picture_generate/
+  - generate_lip_video/
+  - video_generate/
