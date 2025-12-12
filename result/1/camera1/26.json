@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The late 20s US woman (protagonist). Context: A cozy, sun-drenched interior (lived-in art studio with soft light streaming through sheer curtains, reflecting her artistic personality). Action: Laughing uninhibitedly—head tilting back slightly, eyes crinkling, mouth wide in a genuine smile—as he tells a story, her shoulders shaking gently with joy. Style: Soft, warm cinematic aesthetic mirroring her emotional openness. Camera Motion & Angle: Slow, gentle push-in from medium close-up to tight close-up, eye-level to maintain intimacy. Composition: Close-up framing on her face, focusing on crinkled eyes and wide smile to capture unguarded emotion. Ambiance: Warm golden light bathing the scene, natural soft lighting (golden hour), earthy color palette enhancing coziness.",
+    "camera_movement": "slow push-in",
+    "shot_duration": 7.0,
+    "start": 151.0,
+    "end": 158.0,
+    "label": "story"
+  }
+]

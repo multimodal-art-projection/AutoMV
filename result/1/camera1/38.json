@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Man and The Woman (focus on their faces and expressions). Context: Cozy, lived-in intimate setting (e.g., cafe or warm interior). Action: The Man slowly turns his head toward The Woman, a warm appreciative smile spreading across his face; The Woman, with a thoughtful expression, softens her gaze as she feels his acceptance. Style: Soft, warm cinematic aesthetic with earthy color palette, intimate and gentle mood. Camera Motion & Angle: Slow, gentle eye-level pan from The Man's turning profile to a close-up of his smiling face, followed by subtle rack focus to The Woman's face. Composition: Close-up two-shot framing both faces, emphasizing their emotional connection. Ambiance: Golden hour light casting a warm glow, soft natural lighting, earthy tones.",
+    "camera_movement": "slow gentle pan, subtle rack focus",
+    "shot_duration": 7.0,
+    "start": 215.0,
+    "end": 222.0,
+    "label": "story"
+  }
+]

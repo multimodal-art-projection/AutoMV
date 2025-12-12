@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, warm brown shoulder-length loosely worn hair, comfortable creative attire). Context: Desaturated, muted-toned flashback environment with a vague past conflict blurred in the distant background. Action: Standing still at a distance, observing the conflict with a calm, accepting expression—soft eyes, slight head tilt, and a gentle exhale. Style: Desaturated, muted flashback aesthetic. Camera Motion & Angle: Slow, subtle push-in from eye-level medium shot to close-up, gradually focusing on her face. Composition: Medium shot (establishing her distance from the conflict) transitioning to close-up (emphasizing her accepting expression). Ambiance: Soft diffused light, muted desaturated tones, understated and gentle mood.",
+    "camera_movement": "Slow, subtle push-in from medium shot to close-up",
+    "shot_duration": 8.0,
+    "start": 118.0,
+    "end": 126.0,
+    "label": "story"
+  }
+]

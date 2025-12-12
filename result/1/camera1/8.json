@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, warm brown shoulder-length hair, creative attire). Context: Cozy, sun-drenched art studio with warm golden lighting. Action: Gently closes her sketchbook with a small self-aware sigh, her expression soft yet introspective as she acknowledges complex emotions. Style: Soft, warm, cinematic aesthetic with intimate character focus. Camera Motion & Angle: Slow tilt up from a close-up of her hands on the sketchbook to her face, eye-level. Composition: Intimate close-up. Ambiance: Warm golden natural light, sun-drenched interiors, earthy color palette.",
+    "camera_movement": "slow tilt up",
+    "shot_duration": 5.0,
+    "start": 50.0,
+    "end": 55.0,
+    "label": "story"
+  }
+]

@@ -1,0 +1,3 @@
+[submodule "src/recipes/pretrain/fairseq"]
+	path = src/recipes/pretrain/fairseq
+	url = https://github.com/facebookresearch/fairseq

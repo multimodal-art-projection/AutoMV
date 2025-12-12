@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman and The Man. Context: Cozy bookstore with wooden shelves, bathed in golden hour light. Action: The Woman notices The Man; he offers a gentle, sincere smile; she hesitates, then softens and returns a small, genuine smile. Style: Soft, warm, cinematic, intimate character-focused. Camera Motion & Angle: Slow, subtle pan between their faces at eye level. Composition: Close-ups on their faces, emphasizing meaningful glances and emotional shifts. Ambiance: Golden hour light highlighting their expressions, warm earthy tones, introspective and tender mood.",
+    "camera_movement": "slow pan",
+    "shot_duration": 6.0,
+    "start": 82.0,
+    "end": 88.0,
+    "label": "story"
+  }
+]

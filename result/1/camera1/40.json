@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Singer (late 20s US female with long, flowing dark hair). Context: Golden hour light, intimate outdoor or sun-drenched indoor setting. Action: Soft smile lingering, head tilting slightly, eyes softening with a slow blink, subtle relaxation of shoulders. Style: Soft, warm, cinematic aesthetic with intimate character focus. Camera Motion & Angle: Slow, gentle push-in from mid-close to tight close-up, eye level. Composition: Tight close-up on her face, emphasizing the peace/resolution in her expression. Ambiance: Golden hour light, warm earthy color palette, soft natural lighting.",
+    "camera_movement": "Slow push-in",
+    "shot_duration": 7.0,
+    "start": 233.0,
+    "end": 240.0,
+    "label": "sing"
+  }
+]

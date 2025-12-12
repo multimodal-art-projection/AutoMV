@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, warm brown shoulder-length hair, guarded expression). Context: Sunlit cozy bookstore with warm earthy decor. Action: Offers a polite, hesitant smile, subtly tenses her shoulders, and takes a small, deliberate step back to maintain distance. Style: Soft, warm cinematic aesthetic with intimate character focus. Camera Motion & Angle: Eye level; slow, gentle push in on her face as she smiles, then subtle pull back to reveal her step back. Composition: Close-up (face) transitioning to medium close-up (upper body). Ambiance: Soft golden natural lighting, warm earthy color palette, introspective gentle mood.",
+    "camera_movement": "slow push in then subtle pull back",
+    "shot_duration": 4.0,
+    "start": 65.0,
+    "end": 69.0,
+    "label": "story"
+  }
+]

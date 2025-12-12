@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman and The Man; Context: cozy apartment; Action: moving slowly towards each other, culminating in a gentle, cathartic embrace; Style: soft, warm cinematic aesthetic; Camera Motion & Angle: slow tracking shot, eye level; Composition: medium shot transitioning to close-up on faces; Ambiance: warm amber lighting, soft and intimate",
+    "camera_movement": "slow tracking",
+    "shot_duration": 11.0,
+    "start": 222.0,
+    "end": 233.0,
+    "label": "story"
+  }
+]

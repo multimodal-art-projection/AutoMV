@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Singer (late 20s female, US nationality, dark almost black long flowing hair). Context: Cozy sun-drenched art studio. Action: Smiling, swaying gently to the rhythm, hands making soft, expressive gestures as she sings, fully immersed in performance. Style: Soft, warm cinematic aesthetic. Camera Motion & Angle: Slow dolly in from medium full shot to medium shot, eye level. Composition: Initially full shot, transitioning to medium shot with her centered. Ambiance: Golden hour light, warm earthy color palette, gentle and hopeful atmosphere.",
+    "camera_movement": "slow dolly in",
+    "shot_duration": 6.0,
+    "start": 145.0,
+    "end": 151.0,
+    "label": "sing"
+  }
+]

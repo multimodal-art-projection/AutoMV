@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman's hands sketching in a notebook. Context: Cozy, sun-drenched art studio with scattered art supplies and a warm lamp. Action: Sketching with focused, confident strokes; pausing to adjust a pencil or trace a line with her finger. Style: Soft, warm, cinematic aesthetic with natural golden-hour lighting. Camera Motion & Angle: Close-up, slow, gentle tracking shot following the movement of her hands. Composition: Extreme close-up on hands, notebook foregrounded, soft-focused studio details in background. Ambiance: Warm earthy color palette (terracotta, cream, soft browns), golden light filtering through sheer curtains, creating a cozy, introspective mood.",
+    "camera_movement": "slow tracking",
+    "shot_duration": 7.5,
+    "start": 15.0,
+    "end": 22.5,
+    "label": "story"
+  }
+]

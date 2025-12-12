@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (singer); Context: Cozy, lived-in interior (e.g., art studio or cafe); Action: Looking just off-camera with powerful emotion and hopeful anticipation, subtle micro-expressions (soft smile, gentle gaze) conveying introspective hope; Style: Soft, warm cinematic aesthetic, intimate character-focused; Camera Motion & Angle: Eye-level close-up, subtle dolly in to intensify intimacy; Composition: Close-up on her face, soft focus on eyes and expression; Ambiance: Golden-hour lighting, warm earthy color palette, gentle and introspective mood",
+    "camera_movement": "subtle dolly in",
+    "shot_duration": 6.0,
+    "start": 131.0,
+    "end": 137.0,
+    "label": "sing"
+  }
+]

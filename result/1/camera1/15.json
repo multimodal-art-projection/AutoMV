@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The woman (late 20s, warm brown shoulder-length hair, creative attire) and the man (late 20s-early 30s, dark brown short hair, gentle smile). Context: Cozy bookstore with lived-in set design. Action: Sharing a brief laugh, heads tilted slightly toward each other, hands hovering near the dropped book between them, soft glances exchanged. Style: Soft, warm cinematic aesthetic. Camera Motion & Angle: Close-up, gentle push-in to intimate the moment. Composition: Intimate close-up framing their faces, the book, and their hands. Ambiance: Golden hour light casting soft warmth, warm earthy color palette.",
+    "camera_movement": "gentle push-in",
+    "shot_duration": 5.0,
+    "start": 88.0,
+    "end": 93.0,
+    "label": "story"
+  }
+]

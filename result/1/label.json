@@ -1,0 +1,42 @@
+{
+    "good_designs": [
+        "Use of natural and soft lighting (golden hour, sun-drenched interiors, warm lamp light).",
+        "A warm, earthy color palette contrasted with cool, desaturated flashbacks.",
+        "Cozy, lived-in set design that reflects the protagonist's personality (art studio, bookstore, cafe).",
+        "Intimate, character-focused cinematography with close-ups on hands, faces, and meaningful glances."
+    ],
+    "style_requirement": "A soft, warm, and cinematic aesthetic that mirrors the protagonist's emotional journey. The visual tone should evolve from the calm, cool light of solitude to a rich, golden warmth as she opens up to love. Flashbacks of past hurt are rendered in desaturated, muted tones to create a stark contrast with the vibrant, hopeful present. The overall mood is introspective, gentle, and ultimately cathartic, emphasizing authentic emotions and the beauty in small, shared moments.",
+    "user_region": "Western",
+    "character_depiction": {
+        "The Woman": {
+            "name": "The Woman",
+            "age": "late 20s",
+            "gender": "female",
+            "nationality": "US",
+            "hair_color": "warm brown",
+            "hair_length": "shoulder-length, often worn loosely",
+            "appearance": "An artistic and introspective individual with a thoughtful and initially guarded expression. She has a quiet grace and dresses in comfortable, creative attire. Her demeanor transforms from one of pensive solitude to genuine, uninhibited joy as she rediscovers love.",
+            "role": "protagonist / the artist"
+        },
+        "The Man": {
+            "name": "The Man",
+            "age": "late 20s to early 30s",
+            "gender": "male",
+            "nationality": "US",
+            "hair_color": "dark brown",
+            "hair_length": "short",
+            "appearance": "A kind-eyed, approachable man with a gentle and sincere smile. He has a warm presence and a casual, smart style. He is patient and understanding, representing a safe harbor for the protagonist's hesitant heart.",
+            "role": "love interest / the catalyst"
+        },
+        "The Singer": {
+            "name": "The Singer",
+            "age": "late 20s",
+            "gender": "female",
+            "nationality": "US",
+            "hair_color": "dark, almost black",
+            "hair_length": "long and flowing",
+            "appearance": "A powerful and emotive performer who acts as the story's emotional core. Her expression shifts from vulnerability and introspection to hopeful conviction and finally, peaceful resolution. She is styled simply and elegantly to keep the focus entirely on her heartfelt performance.",
+            "role": "narrator / emotional guide"
+        }
+    }
+}

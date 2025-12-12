@@ -1,0 +1,338 @@
+[
+    {
+        "number": 1,
+        "start": 0.0,
+        "end": 7.5,
+        "label": "story",
+        "text": "",
+        "story": "Wide shot of a city skyline at dawn, bathed in soft, cool light. The mood is calm and quiet."
+    },
+    {
+        "number": 2,
+        "start": 7.5,
+        "end": 15.0,
+        "label": "story",
+        "text": "",
+        "story": "Slow pan across a cozy, art-filled apartment. Books are stacked on shelves, and a half-finished painting sits on an easel. It feels like a personal sanctuary."
+    },
+    {
+        "number": 3,
+        "start": 15.0,
+        "end": 22.5,
+        "label": "story",
+        "text": "",
+        "story": "Close-up on a woman's hands as she sketches in a notebook. She moves with a focused, confident grace."
+    },
+    {
+        "number": 4,
+        "start": 22.5,
+        "end": 30.0,
+        "label": "story",
+        "text": "",
+        "story": "The woman looks up from her sketchbook and gazes out the window. Her expression is thoughtful and slightly distant, comfortable in her solitude."
+    },
+    {
+        "number": 5,
+        "start": 30.0,
+        "end": 37.5,
+        "label": "sing",
+        "text": "The wound has healed, but I'm not sure if I dare to go any further",
+        "story": "Medium close-up of the female singer in a softly lit space. She looks directly into the camera, her expression conveying vulnerability and introspection."
+    },
+    {
+        "number": 6,
+        "start": 37.5,
+        "end": 43.0,
+        "label": "story",
+        "text": "I'm used to being independent",
+        "story": "The woman waters her houseplants, moving through her sun-drenched apartment with a sense of peaceful self-sufficiency."
+    },
+    {
+        "number": 7,
+        "start": 43.0,
+        "end": 50.0,
+        "label": "story",
+        "text": "When you break in, no matter how hard I pray, I can get through",
+        "story": "A quick, desaturated flashback: The woman stands under an umbrella in the rain, watching a figure walk away. The memory is muted, like a faded photograph."
+    },
+    {
+        "number": 8,
+        "start": 50.0,
+        "end": 55.0,
+        "label": "story",
+        "text": "I know I'm not easy to deal with",
+        "story": "Back in the present, she closes her sketchbook with a small, self-aware sigh, acknowledging her own complex emotions."
+    },
+    {
+        "number": 9,
+        "start": 55.0,
+        "end": 61.0,
+        "label": "sing",
+        "text": "I'm used to being independent, but I'm not sure if I dare to go any further",
+        "story": "The singer is framed against a simple, dark background. The focus is entirely on her hesitant but determined expression."
+    },
+    {
+        "number": 10,
+        "start": 61.0,
+        "end": 65.0,
+        "label": "story",
+        "text": "The world changes too fast, how can I love?",
+        "story": "She's in a bustling cafe. A man gently apologizes after bumping her table. Their eyes meet for a brief second."
+    },
+    {
+        "number": 11,
+        "start": 65.0,
+        "end": 69.0,
+        "label": "story",
+        "text": "Love is a hindrance to me",
+        "story": "She gives him a polite but guarded smile, her initial instinct is to keep her distance."
+    },
+    {
+        "number": 12,
+        "start": 69.0,
+        "end": 76.0,
+        "label": "sing",
+        "text": "If we want happiness, I want to redefine it",
+        "story": "The lighting on the singer becomes brighter and warmer. Her performance gains a surge of energy and conviction."
+    },
+    {
+        "number": 13,
+        "start": 76.0,
+        "end": 82.0,
+        "label": "story",
+        "text": "Not because I'm afraid of loneliness, that's why I want to love",
+        "story": "She is seen reading alone in her apartment at night, surrounded by warm lamp light. She looks content, not lonely, reinforcing her choice."
+    },
+    {
+        "number": 14,
+        "start": 82.0,
+        "end": 88.0,
+        "label": "story",
+        "text": "If I take the next step, Enjoy the blinding moment",
+        "story": "In a bookstore, she sees the same man. He smiles, and after a moment of hesitation, she returns a small, genuine smile."
+    },
+    {
+        "number": 15,
+        "start": 88.0,
+        "end": 93.0,
+        "label": "story",
+        "text": "Let the heart beat,",
+        "story": "A quick montage of their small, subsequent interactions: sharing a brief laugh over a dropped book, him holding a door for her."
+    },
+    {
+        "number": 16,
+        "start": 93.0,
+        "end": 98.0,
+        "label": "story",
+        "text": "let the presumptuousness fly",
+        "story": "Close-up on her face as a genuine smile spreads, her eyes sparkling. She is starting to let her guard down."
+    },
+    {
+        "number": 17,
+        "start": 98.0,
+        "end": 106.0,
+        "label": "story",
+        "text": "Let romance be the mainstay",
+        "story": "Back in her studio, she paints with a renewed passion, adding bold, vibrant colors to her canvas."
+    },
+    {
+        "number": 18,
+        "start": 106.0,
+        "end": 113.0,
+        "label": "sing",
+        "text": "I feel comfortable, I don't care how hard I try",
+        "story": "A medium shot of the singer, her body language now more open and relaxed. She exudes a quiet confidence."
+    },
+    {
+        "number": 19,
+        "start": 113.0,
+        "end": 118.0,
+        "label": "story",
+        "text": "But I'm envious of the walk after dinner",
+        "story": "She watches an elderly couple walk hand-in-hand through a park at dusk. A look of soft longing crosses her face."
+    },
+    {
+        "number": 20,
+        "start": 118.0,
+        "end": 126.0,
+        "label": "story",
+        "text": "Now I'm used to making mistakes, I'm not afraid of conflicts with the future",
+        "story": "Another brief, desaturated flashback of a past conflict, but this time she views it from a distance, with an expression of acceptance."
+    },
+    {
+        "number": 21,
+        "start": 126.0,
+        "end": 131.0,
+        "label": "story",
+        "text": "You will hold my heart here",
+        "story": "She is on a casual date with the man. He gently covers her hand with his on the coffee table. The camera focuses on their connected hands."
+    },
+    {
+        "number": 22,
+        "start": 131.0,
+        "end": 137.0,
+        "label": "sing",
+        "text": "Just for love, I will look forward to it, I will not be afraid",
+        "story": "The singer's performance is now filled with powerful emotion and hopeful anticipation, looking just off-camera."
+    },
+    {
+        "number": 23,
+        "start": 137.0,
+        "end": 140.0,
+        "label": "story",
+        "text": "The world changes too fast, how can I love?",
+        "story": "They walk together through the city at night, surrounded by the blur of traffic and bright neon lights."
+    },
+    {
+        "number": 24,
+        "start": 140.0,
+        "end": 145.0,
+        "label": "story",
+        "text": "Love is a hindrance to me",
+        "story": "She looks over at him, her old fear still present but now overshadowed by a growing affection."
+    },
+    {
+        "number": 25,
+        "start": 145.0,
+        "end": 151.0,
+        "label": "sing",
+        "text": "If we want happiness, I want to redefine it",
+        "story": "Full shot of the singer, moving to the rhythm of the song. She is fully immersed in the performance, a smile on her face."
+    },
+    {
+        "number": 26,
+        "start": 151.0,
+        "end": 158.0,
+        "label": "story",
+        "text": "Not because I'm afraid of loneliness, that's why I want to love",
+        "story": "A beautiful shot of her laughing, a completely uninhibited and joyful laugh, as he tells her a story. The scene is bathed in warm, golden light."
+    },
+    {
+        "number": 27,
+        "start": 158.0,
+        "end": 164.0,
+        "label": "story",
+        "text": "If I take the next step, Enjoy the blinding moment",
+        "story": "He leans in to kiss her. The camera focuses on her eyes as they close in anticipation. A lens flare washes over the screen."
+    },
+    {
+        "number": 28,
+        "start": 164.0,
+        "end": 169.0,
+        "label": "story",
+        "text": "Let the heart beat,",
+        "story": "A joyful montage: they ride a Ferris wheel overlooking the city, their silhouettes against the sunset, sharing an ice cream."
+    },
+    {
+        "number": 29,
+        "start": 169.0,
+        "end": 174.0,
+        "label": "story",
+        "text": "let the presumptuousness fly",
+        "story": "He spins her around in a playful dance in a park. The background blurs into a beautiful, soft bokeh effect."
+    },
+    {
+        "number": 30,
+        "start": 174.0,
+        "end": 182.0,
+        "label": "story",
+        "text": "Let romance be the mainstay",
+        "story": "He walks her to the door of her apartment building. They share a tender, lingering moment of goodbye under the warm glow of a streetlamp."
+    },
+    {
+        "number": 31,
+        "start": 182.0,
+        "end": 186.0,
+        "label": "sing",
+        "text": "Love, if we want happiness",
+        "story": "An intense, emotional close-up on the singer's face. She conveys the song's climactic feeling of surrender and hope."
+    },
+    {
+        "number": 32,
+        "start": 186.0,
+        "end": 189.0,
+        "label": "story",
+        "text": "Raise the floating of the past",
+        "story": "She stands at her apartment door, looking back at her old life inside, then turns to face him, making a decision."
+    },
+    {
+        "number": 33,
+        "start": 189.0,
+        "end": 195.0,
+        "label": "story",
+        "text": "Unlock the circuit of love",
+        "story": "Close-up on her hand as she puts the key in the lock and turns it. A deeply symbolic action of opening her world to him."
+    },
+    {
+        "number": 34,
+        "start": 195.0,
+        "end": 199.0,
+        "label": "story",
+        "text": "Love, if I take the next step",
+        "story": "She opens the door and looks at him, a nervous but hopeful expression on her face."
+    },
+    {
+        "number": 35,
+        "start": 199.0,
+        "end": 202.0,
+        "label": "story",
+        "text": "Don't mind the story",
+        "story": "She steps aside, gesturing for him to come inside her sanctuary for the first time."
+    },
+    {
+        "number": 36,
+        "start": 202.0,
+        "end": 208.0,
+        "label": "story",
+        "text": "Let romance be the mainstay",
+        "story": "He steps inside. The camera follows his gaze as he takes in her personal world—the art, the books, the essence of her."
+    },
+    {
+        "number": 37,
+        "start": 208.0,
+        "end": 215.0,
+        "label": "story",
+        "text": "",
+        "story": "She watches him with a vulnerable expression, her heart on her sleeve as he explores her space."
+    },
+    {
+        "number": 38,
+        "start": 215.0,
+        "end": 222.0,
+        "label": "story",
+        "text": "",
+        "story": "He turns to her, a warm, appreciative smile on his face. He understands and accepts her completely."
+    },
+    {
+        "number": 39,
+        "start": 222.0,
+        "end": 233.0,
+        "label": "story",
+        "text": "",
+        "story": "A slow-motion shot as they move towards each other in the warm amber light of her apartment, culminating in a gentle, cathartic embrace."
+    },
+    {
+        "number": 40,
+        "start": 233.0,
+        "end": 240.0,
+        "label": "sing",
+        "text": "Now I'm used to making mistakes, I'm not afraid of conflicts with the future",
+        "story": "The final shot of the singer. She is smiling, a look of profound peace and resolution on her face as the song winds down."
+    },
+    {
+        "number": 41,
+        "start": 240.0,
+        "end": 246.0,
+        "label": "story",
+        "text": "You will hold my heart here",
+        "story": "The camera slowly pulls back from the apartment window. Inside, their two silhouettes are visible, holding each other close."
+    },
+    {
+        "number": 42,
+        "start": 246.0,
+        "end": 247.58,
+        "label": "story",
+        "text": "",
+        "story": "The shot fades to the glittering city lights at night as the final notes of the music fade to silence."
+    }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s US female with warm brown shoulder-length hair, vulnerable expression). Context: Sun-drenched art studio during golden hour, cozy and lived-in with art supplies visible. Action: Watching him explore her space with a vulnerable, heart-on-her-sleeve expression; her fingers fidget slightly near her chest, eyes softening as he touches a canvas, soft focus on her eyes reflecting emotion. Style: Soft, warm cinematic aesthetic with intimate character-focused cinematography. Camera Motion & Angle: Slow, gentle dolly in from medium close-up to tight close-up, eye level. Composition: Close-up on her face, shallow depth of field blurring the background (him exploring). Ambiance: Golden hour light, warm earthy color palette, soft natural lighting, introspective and gentle mood.",
+    "camera_movement": "slow dolly in",
+    "shot_duration": 7.0,
+    "start": 208.0,
+    "end": 215.0,
+    "label": "story"
+  }
+]

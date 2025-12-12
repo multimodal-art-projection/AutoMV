@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman and The Man sharing a tender goodbye. Context: Outside her cozy apartment building under a vintage golden-glow streetlamp. Action: He walks her to the door, they pause; he gently tucks a loose strand of her hair behind her ear, their eyes lock, and she offers a soft, hesitant smile. Style: Soft, warm cinematic aesthetic with earthy color palette. Camera Motion & Angle: Tracking shot following their walk, then dolly in to eye-level close-up; slight tilt up to capture streetlamp glow above. Composition: Medium two-shot transitioning to intimate close-ups of their faces and hands. Ambiance: Golden lamp light, gentle and introspective mood.",
+    "camera_movement": "Tracking, dolly in, slight tilt up",
+    "shot_duration": 8.0,
+    "start": 174.0,
+    "end": 182.0,
+    "label": "story"
+  }
+]

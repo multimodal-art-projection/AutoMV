@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s US female with warm brown shoulder-length hair). Context: Cozy, lived-in indoor setting (e.g., art studio) bathed in soft golden natural light. Action: Her neutral expression softens—lips slowly curving into a genuine smile, eyes sparkling and crinkling at the corners, a subtle exhale escaping as she visibly relaxes her guard. Style: Soft, warm cinematic aesthetic with a warm earthy color palette. Camera Motion & Angle: Eye-level, gentle dolly back from a tight close-up on her eyes to a mid-face close-up, maintaining intimacy. Composition: Intimate close-up, transitioning from eye focus to mid-face to frame her spreading smile. Ambiance: Soft golden natural light (golden hour), warm earthy tones, soft cinematic glow emphasizing authentic emotion.",
+    "camera_movement": "gentle dolly back",
+    "shot_duration": 5.0,
+    "start": 93.0,
+    "end": 98.0,
+    "label": "story"
+  }
+]

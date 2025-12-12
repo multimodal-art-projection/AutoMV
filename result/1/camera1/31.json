@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Singer (female, late 20s, US nationality) with dark almost black long flowing hair. Context: Softly lit, warm environment emphasizing her face. Action: Subtle facial nuances—eyelids fluttering, lips trembling faintly, a slow exhale, eyes glistening with surrender and hope. Style: Soft, warm, cinematic aesthetic with natural golden lighting and warm earthy color palette. Camera Motion & Angle: Eye-level extreme close-up with slow, gentle dolly in. Composition: Extreme close-up framing her eyes, nose, and mouth. Ambiance: Soft golden natural lighting, warm earthy tones, soft cinematic glow.",
+    "camera_movement": "Slow, gentle dolly in",
+    "shot_duration": 4.0,
+    "start": 182.0,
+    "end": 186.0,
+    "label": "sing"
+  }
+]

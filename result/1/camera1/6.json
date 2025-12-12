@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, warm brown shoulder-length hair, creative attire). Context: Sun-drenched cozy apartment with potted plants and artistic touches (artwork on walls, woven rugs, terracotta planters). Action: Watering houseplants—lifting a terracotta watering can, gently pouring water into a potted fern, pausing to brush a leaf into place, moving to a窗边 succulent with a soft, thoughtful expression. Style: Soft, warm cinematic aesthetic with intimate character focus. Camera Motion & Angle: Slow dolly tracking shot following her movement, starting with a close-up of her hands gripping the watering can, tilting up to a medium close-up of her face. Composition: Close-ups on hands and face, transitioning to a medium shot of her upper body as she moves. Ambiance: Golden sunlight streaming through sheer curtains, warm earthy color palette (honeyed wood, sage green, terracotta).",
+    "camera_movement": "slow dolly tracking shot, tilting up from hands to face",
+    "shot_duration": 5.5,
+    "start": 37.5,
+    "end": 43.0,
+    "label": "story"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The female singer (late 20s US, dark almost black long flowing hair). Context: Cozy, lived-in art studio with warm earthy color palette. Action: Looks directly into the camera, expression vulnerable and introspective, with subtle soft blinks and a slight downward glance before meeting the lens again. Style: Soft, warm cinematic aesthetic with natural soft lighting (warm lamp light). Camera Motion & Angle: Eye level, slow, gentle dolly in to tighten the frame subtly. Composition: Medium close-up, focusing on her face and upper shoulders. Ambiance: Intimate, gentle mood with soft warm lamp light illuminating her features, enhancing the introspective tone.",
+    "camera_movement": "slow gentle dolly in",
+    "shot_duration": 7.5,
+    "start": 30.0,
+    "end": 37.5,
+    "label": "sing"
+  }
+]

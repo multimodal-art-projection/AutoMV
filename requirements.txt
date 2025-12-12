@@ -1,0 +1,16 @@
+qwen-omni-utils[decord]
+openai-whisper
+volcengine-python-sdk
+openai
+faster_whisper
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+opencv-python-headless
+moviepy<2.0
+ffmpeg-python
+volcengine
+dotenv
+oss2
+demucs
+jams

@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s artist) and her art-filled apartment. Context: Cozy, lived-in personal sanctuary with stacked books, art supplies, and a half-finished painting on an easel. Action: The Woman stands by the easel, pausing to gaze at the canvas, her fingers gently brushing a paint tube; camera slowly pans from left to right. Style: Soft, warm cinematic aesthetic with natural golden hour lighting. Camera Motion & Angle: Slow pan at eye level. Composition: Starts as a wide shot of the apartment, transitions to a medium shot of The Woman, ending in a close-up of her thoughtful face. Ambiance: Golden hour light streaming through windows, warm earthy color palette, introspective and gentle mood.",
+    "camera_movement": "slow pan",
+    "shot_duration": 7.5,
+    "start": 7.5,
+    "end": 15.0,
+    "label": "story"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, warm brown shoulder-length hair, comfortable creative attire). Context: Rainy street, desaturated flashback environment. Action: Standing under an umbrella, watching a blurred figure walk away; her eyes follow the figure until it fades, hand gently gripping the umbrella handle, expression thoughtful and pensive. Style: Muted, faded photograph aesthetic with desaturated tones. Camera Motion & Angle: Slow pan from close-up of her face (capturing her thoughtful gaze) to medium shot, tracking the figure’s gradual departure into the rain. Composition: Transitions from intimate close-up (face, hands on umbrella) to medium shot (The Woman under umbrella, figure in distance). Ambiance: Desaturated, cool muted tones, soft rain lighting, no warm hues.",
+    "camera_movement": "Slow pan from close-up to medium shot, tracking the walking figure",
+    "shot_duration": 7.0,
+    "start": 43.0,
+    "end": 50.0,
+    "label": "story"
+  }
+]

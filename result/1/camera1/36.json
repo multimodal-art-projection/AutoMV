@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Man (late 20s-early 30s, short dark brown hair, gentle expression, casual smart attire). Context: Cozy art studio bathed in warm golden hour light, filled with paintings, stacked books, and personal mementos. Action: Steps inside slowly, gaze soft and curious, drifting over art, books, and mementos as he takes in her personal world. Style: Soft, warm, cinematic aesthetic. Camera Motion & Angle: Dolly shot follows his entrance, then pans slowly to track his gaze. Composition: Medium shot of him stepping in, transitioning to close-ups of objects (art, books) via his perspective. Ambiance: Warm golden hour light, soft earthy color palette, intimate and cinematic atmosphere.",
+    "camera_movement": "Dolly follows his entrance, then pans to track his gaze",
+    "shot_duration": 6.0,
+    "start": 202.0,
+    "end": 208.0,
+    "label": "story"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Singer (late 20s US female with dark, almost black long flowing hair). Context: Simple, dark background with an intimate, understated setting. Action: Blinks slowly, lips part slightly in a hesitant yet determined manner, subtle tilt of the head. Style: Soft, warm, cinematic, and intimate character-focused aesthetic. Camera Motion & Angle: Slow, steady push-in from medium close-up to tight close-up, eye level. Composition: Tight close-up framing her face, emphasizing her eyes and expression. Ambiance: Soft warm (golden) cinematic lighting, dark background, introspective and gentle tone.",
+    "camera_movement": "Push-in",
+    "shot_duration": 6.0,
+    "start": 55.0,
+    "end": 61.0,
+    "label": "sing"
+  }
+]

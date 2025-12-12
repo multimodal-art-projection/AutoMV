@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman and The Man. Context: Nighttime city street surrounded by blurred traffic and bright neon lights. Action: Walking side by side, her gaze drifting to neon signs before softening as she steals a glance at him; shoulders occasionally brushing. Style: Soft, cinematic aesthetic with warm golden tones (from street lamps) contrasting cool neon hues. Camera Motion & Angle: Steady dolly shot, eye level, following from the side. Composition: Medium two-shot gradually pushing in to a close-up of The Woman’s thoughtful yet softening expression. Ambiance: Night scene with blended warm/cool lighting, introspective yet hopeful mood.",
+    "camera_movement": "Steady dolly shot, eye level, following from the side, gradually pushing in",
+    "shot_duration": 3.0,
+    "start": 137.0,
+    "end": 140.0,
+    "label": "story"
+  }
+]

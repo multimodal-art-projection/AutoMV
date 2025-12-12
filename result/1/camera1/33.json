@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman's hand (late 20s, US female, warm brown, shoulder-length hair; focus on delicate, slightly trembling fingers). Context: Her cozy, lived-in entrance door—wooden with faint paint chips, reflecting her artistic personality (art studio/apartment interior visible beyond, sun-drenched with warm, earthy decor: a hanging macramé plant, a half-open sketchbook on a nearby console). Action: Hand approaches lock slowly, fingers brushing cold metal; inserts key with deliberate care, pauses (hesitation in the stillness), then turns key in a slow, steady motion until a soft 'click' echoes. Style: Intimate, warm, cinematic; soft, symbolic, and emotionally charged, mirroring her hesitant yet hopeful opening to love. Camera Motion & Angle: Extreme close-up (macro lens) on hand/lock, static at first, then subtle 2-second push-in as key turns, emphasizing the pivotal moment. Composition: Tight close-up framing, hand/key/lock centered, shallow depth of field blurring warm interior background to keep focus on the symbolic action. Ambiance: Soft golden hour light filters through sheer curtains, casting warm amber tones; soft shadows, no harsh edges—lighting mirrors the gentle, cathartic shift from solitude to openness.",
+    "camera_movement": "Extreme close-up (macro) with subtle push-in (2-second slow zoom) during key turn",
+    "shot_duration": 6.0,
+    "start": 189.0,
+    "end": 195.0,
+    "label": "story"
+  }
+]

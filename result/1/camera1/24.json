@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman (late 20s, US nationality with shoulder-length warm brown hair). Context: Sun-drenched cozy cafe during golden hour. Action: Looks over at him, her expression shifting from lingering guardedness to softening affection—eyes glistening with old fear still present but overshadowed by growing warmth, lips curving into a faint, hesitant smile. Style: Soft, warm cinematic aesthetic. Camera Motion & Angle: Intimate close-up, steady camera with a slow, gentle pan to capture the subtle shift in her expression. Composition: Character-focused close-up framing her face. Ambiance: Golden hour sunlight streaming through cafe windows, warm earthy color palette (browns, golds, soft oranges), natural soft lighting highlighting her features.",
+    "camera_movement": "Slow, gentle pan to capture the shift in her expression, steady close-up hold",
+    "shot_duration": 5.0,
+    "start": 140.0,
+    "end": 145.0,
+    "label": "story"
+  }
+]

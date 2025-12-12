@@ -1,0 +1,11 @@
+[
+  {
+    "shot_num": 1,
+    "prompt": "Subject: The Woman. Context: Sun-drenched art studio with golden hour light, cozy and lived-in set design (e.g., paintbrushes, half-finished canvases, warm-toned furniture). Action: Looks up slowly from her sketchbook, fingers pausing on the page, then turns her head to gaze out the window with a thoughtful, slightly distant expression, comfortable in solitude. Style: Soft, warm, cinematic aesthetic. Camera Motion & Angle: Slow tilt up from the sketchbook (focus on her hands) to her face (eye level), then gentle pan right to frame the window as she gazes outward. Composition: Close-up on her hands and sketchbook, transitioning to a medium close-up of her face, then medium shot including the window. Ambiance: Golden hour sunlight flooding the studio, warm earthy color palette (terracottas, soft yellows, muted greens), soft and introspective tone.",
+    "camera_movement": "slow tilt up, gentle pan right",
+    "shot_duration": 7.5,
+    "start": 22.5,
+    "end": 30.0,
+    "label": "story"
+  }
+]
