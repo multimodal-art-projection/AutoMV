@@ -1,6 +1,6 @@
 import os
 import subprocess
-# from picture_generate.picture import generate_one_mv
+from picture_generate.picture import generate_one_mv
 from config import Config
 
 if __name__ == "__main__":
@@ -46,11 +46,11 @@ if __name__ == "__main__":
 
 
     
-    # success = False
-    # while not success:
-    #     try:
-    #         # Generate a single music video. Parameters are (in order): music video name, starting index of the segment to be regenerated, ending index of the segment to be regenerated
-    #         generate_one_mv(music_name)
-    #         success = True 
-    #     except Exception as e:
-    #         print(f"generate_one_mv failed, retrying... Error message: {e}")
+    success = False
+    while not success:
+        try:
+            # Generate a single music video. Parameters are (in order): music video name, starting index of the segment to be regenerated, ending index of the segment to be regenerated
+            generate_one_mv(music_name)
+            success = True 
+        except Exception as e:
+            print(f"generate_one_mv failed, retrying... Error message: {e}")
