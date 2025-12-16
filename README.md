@@ -292,11 +292,14 @@ AutoMV greatly improves:
 If you use AutoMV in your research, please cite:
 
 ```bibtex
-@article{AutoMV2026,
-  title   = {AutoMV: An Automatic Multi-Agent System for Music Video Generation},
-  author  = {Anonymous},
-  journal = {arxiv},
-  year    = {2025}
+@misc{tang2025automv,
+      title={AutoMV: An Automatic Multi-Agent System for Music Video Generation}, 
+      author={Tang, Xiaoxuan and Lei, Xinping and Zhu, Chaoran and Chen, Shiyun and Yuan, Ruibin and Li, Yizhi and Oh, Changjae and Zhang, Ge and Huang, Wenhao and Benetos, Emmanouil and Liu, Yang and Liu, Jiaheng and Ma, Yinghao},
+      year={2025},
+      eprint={2512.12196},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM},
+      url={https://arxiv.org/abs/2512.12196}, 
 }
 ```
 
@@ -304,8 +307,7 @@ If you use AutoMV in your research, please cite:
 
 ## 📝 License
 
-This project is released under the MIT/BSD/Apache 2.0 License.
-(Choose your license accordingly.)
+This project is released under the Apache 2.0 License.
 
 ---
 
