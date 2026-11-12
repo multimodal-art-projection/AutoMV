@@ -1,0 +1,1907 @@
+{
+  "protocol": {
+    "backbone": "I3D Kinetics-400 logits (cd-fvd 0.1.1, i3d_pretrained_400.pt)",
+    "clips_per_video": 4,
+    "clip_len": 16,
+    "frame_stride": "round(fps/16), clip spans ~1s",
+    "resolution": "224x224 stretch",
+    "reference": "GroundTruth"
+  },
+  "groups": {
+    "GroundTruth": {
+      "n_videos": 30,
+      "n_clips": 120,
+      "failures": [],
+      "videos": [
+        {
+          "file": "mv_10.mp4",
+          "frames": 6286,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_11.mp4",
+          "frames": 5581,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_12.mp4",
+          "frames": 6311,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_13.mp4",
+          "frames": 7626,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_15.mp4",
+          "frames": 6663,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_16.mp4",
+          "frames": 5191,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_17.mp4",
+          "frames": 4455,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_18.mp4",
+          "frames": 5925,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_19.mp4",
+          "frames": 5554,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_20.mp4",
+          "frames": 12165,
+          "fps": 29.97,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_23.mp4",
+          "frames": 4738,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_29.mp4",
+          "frames": 6786,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_30.mp4",
+          "frames": 6046,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_31.mp4",
+          "frames": 4157,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_33.mp4",
+          "frames": 6310,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_35.mp4",
+          "frames": 3547,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_37.mp4",
+          "frames": 5691,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_38.mp4",
+          "frames": 6570,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_4.mp4",
+          "frames": 5312,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_44.mp4",
+          "frames": 8143,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_45.mp4",
+          "frames": 7684,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_46.mp4",
+          "frames": 5450,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_47.mp4",
+          "frames": 4752,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_48.mp4",
+          "frames": 7433,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_49.mp4",
+          "frames": 8060,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_50.mp4",
+          "frames": 6211,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_51.mp4",
+          "frames": 8288,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_6.mp4",
+          "frames": 4618,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_8.mp4",
+          "frames": 5965,
+          "fps": 29.97,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_9.mp4",
+          "frames": 6630,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "AutoMV": {
+      "fvd_vs_GT": 1049.776,
+      "n_videos": 30,
+      "n_clips": 120,
+      "failures": [],
+      "videos": [
+        {
+          "file": "mv_10.mp4",
+          "frames": 6293,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_11.mp4",
+          "frames": 5550,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_12.mp4",
+          "frames": 6322,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_13.mp4",
+          "frames": 7631,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_15.mp4",
+          "frames": 6402,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_16.mp4",
+          "frames": 256,
+          "fps": 23.98,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord-fix"
+        },
+        {
+          "file": "mv_17.mp4",
+          "frames": 4465,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_18.mp4",
+          "frames": 5927,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_19.mp4",
+          "frames": 5564,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_20.mp4",
+          "frames": 9746,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_23.mp4",
+          "frames": 4742,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_29.mp4",
+          "frames": 6795,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_30.mp4",
+          "frames": 6054,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_31.mp4",
+          "frames": 4166,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_33.mp4",
+          "frames": 6322,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_35.mp4",
+          "frames": 3555,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_37.mp4",
+          "frames": 5702,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_38.mp4",
+          "frames": 6573,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_4.mp4",
+          "frames": 5103,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_44.mp4",
+          "frames": 7822,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_45.mp4",
+          "frames": 7697,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_46.mp4",
+          "frames": 5235,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_47.mp4",
+          "frames": 4746,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_48.mp4",
+          "frames": 7445,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_49.mp4",
+          "frames": 7742,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_50.mp4",
+          "frames": 6216,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_51.mp4",
+          "frames": 7961,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_6.mp4",
+          "frames": 4627,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_8.mp4",
+          "frames": 4776,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "mv_9.mp4",
+          "frames": 6370,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "baseline1": {
+      "fvd_vs_GT": 1115.55,
+      "n_videos": 30,
+      "n_clips": 120,
+      "failures": [],
+      "videos": [
+        {
+          "file": "10.mp4",
+          "frames": 7915,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "11.mp4",
+          "frames": 7033,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "12.mp4",
+          "frames": 7946,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "13.mp4",
+          "frames": 9046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "15.mp4",
+          "frames": 8046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "16.mp4",
+          "frames": 6546,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "17.mp4",
+          "frames": 5625,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "18.mp4",
+          "frames": 7463,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "19.mp4",
+          "frames": 6999,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "20.mp4",
+          "frames": 9046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "23.mp4",
+          "frames": 5972,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "29.mp4",
+          "frames": 8541,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "30.mp4",
+          "frames": 7616,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "31.mp4",
+          "frames": 5251,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "33.mp4",
+          "frames": 7946,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "35.mp4",
+          "frames": 4488,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "37.mp4",
+          "frames": 7171,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "38.mp4",
+          "frames": 8262,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "4.mp4",
+          "frames": 6424,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "44.mp4",
+          "frames": 9046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "45.mp4",
+          "frames": 9046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "46.mp4",
+          "frames": 6590,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "47.mp4",
+          "frames": 5990,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "48.mp4",
+          "frames": 7066,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "49.mp4",
+          "frames": 9046,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "50.mp4",
+          "frames": 7814,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "51.mp4",
+          "frames": 7051,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "6.mp4",
+          "frames": 5827,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "8.mp4",
+          "frames": 6020,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "9.mp4",
+          "frames": 8006,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "baseline2": {
+      "fvd_vs_GT": 1071.621,
+      "n_videos": 30,
+      "n_clips": 120,
+      "failures": [],
+      "videos": [
+        {
+          "file": "10.mp4",
+          "frames": 7870,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "11.mp4",
+          "frames": 6987,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "12.mp4",
+          "frames": 7900,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "13.mp4",
+          "frames": 9537,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "15.mp4",
+          "frames": 8001,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "16.mp4",
+          "frames": 6501,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "17.mp4",
+          "frames": 5580,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "18.mp4",
+          "frames": 9537,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "19.mp4",
+          "frames": 6954,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "20.mp4",
+          "frames": 12181,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "23.mp4",
+          "frames": 5927,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "29.mp4",
+          "frames": 8495,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "30.mp4",
+          "frames": 7571,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "31.mp4",
+          "frames": 5205,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "33.mp4",
+          "frames": 7900,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "35.mp4",
+          "frames": 4443,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "37.mp4",
+          "frames": 7125,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "38.mp4",
+          "frames": 8217,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "4.mp4",
+          "frames": 6377,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "44.mp4",
+          "frames": 9776,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "45.mp4",
+          "frames": 9619,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "46.mp4",
+          "frames": 6545,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "47.mp4",
+          "frames": 5944,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "48.mp4",
+          "frames": 9305,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "49.mp4",
+          "frames": 9853,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "50.mp4",
+          "frames": 7769,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "51.mp4",
+          "frames": 9950,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "6.mp4",
+          "frames": 5781,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "8.mp4",
+          "frames": 5974,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "9.mp4",
+          "frames": 8008,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "music2video": {
+      "fvd_vs_GT": 2199.535,
+      "n_videos": 30,
+      "n_clips": 120,
+      "failures": [],
+      "videos": [
+        {
+          "file": "10.mp4",
+          "frames": 17059,
+          "fps": 65.2,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "11.mp4",
+          "frames": 20895,
+          "fps": 90.07,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "12.mp4",
+          "frames": 23835,
+          "fps": 89.85,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "13.mp4",
+          "frames": 29653,
+          "fps": 81.2,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "15.mp4",
+          "frames": 25909,
+          "fps": 112.5,
+          "stride": 7,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "16.mp4",
+          "frames": 20187,
+          "fps": 89.03,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "17.mp4",
+          "frames": 17362,
+          "fps": 96.4,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "18.mp4",
+          "frames": 21482,
+          "fps": 68.97,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "19.mp4",
+          "frames": 20060,
+          "fps": 83.85,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "20.mp4",
+          "frames": 39008,
+          "fps": 74.86,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "23.mp4",
+          "frames": 10265,
+          "fps": 52.0,
+          "stride": 3,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "29.mp4",
+          "frames": 26705,
+          "fps": 92.86,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "30.mp4",
+          "frames": 13911,
+          "fps": 55.17,
+          "stride": 3,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "31.mp4",
+          "frames": 9026,
+          "fps": 52.26,
+          "stride": 3,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "33.mp4",
+          "frames": 23029,
+          "fps": 86.18,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "35.mp4",
+          "frames": 8275,
+          "fps": 55.94,
+          "stride": 3,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "37.mp4",
+          "frames": 21588,
+          "fps": 89.29,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "38.mp4",
+          "frames": 23967,
+          "fps": 85.52,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "4.mp4",
+          "frames": 19381,
+          "fps": 68.61,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "44.mp4",
+          "frames": 31287,
+          "fps": 84.43,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "45.mp4",
+          "frames": 31506,
+          "fps": 89.42,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "46.mp4",
+          "frames": 12191,
+          "fps": 56.02,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "47.mp4",
+          "frames": 17897,
+          "fps": 63.19,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "48.mp4",
+          "frames": 23356,
+          "fps": 70.76,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "49.mp4",
+          "frames": 30013,
+          "fps": 93.61,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "50.mp4",
+          "frames": 23893,
+          "fps": 76.29,
+          "stride": 5,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "51.mp4",
+          "frames": 30976,
+          "fps": 94.51,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "6.mp4",
+          "frames": 17411,
+          "fps": 69.8,
+          "stride": 4,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "8.mp4",
+          "frames": 18646,
+          "fps": 94.69,
+          "stride": 6,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "9.mp4",
+          "frames": 13794,
+          "fps": 52.0,
+          "stride": 3,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "mvcrafter": {
+      "fvd_vs_GT": 1429.345,
+      "n_videos": 11,
+      "n_clips": 44,
+      "failures": [],
+      "videos": [
+        {
+          "file": "Idol.mp4",
+          "frames": 624,
+          "fps": 8.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "Jingle_Bells.mp4",
+          "frames": 456,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "Levitating.mp4",
+          "frames": 1134,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "Magic.mp4",
+          "frames": 1230,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "The_Wolf.mp4",
+          "frames": 1043,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "We_Will_Rock_You.mp4",
+          "frames": 841,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "Wedding_March.mp4",
+          "frames": 648,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "believer.mp4",
+          "frames": 720,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "gods.mp4",
+          "frames": 1272,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "onesummersday.mp4",
+          "frames": 720,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "pokerface.mp4",
+          "frames": 576,
+          "fps": 24.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "avlink": {
+      "fvd_vs_GT": 1805.836,
+      "n_videos": 18,
+      "n_clips": 72,
+      "failures": [],
+      "videos": [
+        {
+          "file": "106.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "111.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "111_0.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "111_1.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "111_2.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "115.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "320.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "519.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "56.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "57.mp4",
+          "frames": 31,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "57_0.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "57_1.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "57_2.mp4",
+          "frames": 30,
+          "fps": 6.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "video14_split_00000.mp4",
+          "frames": 151,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "video21_split_00000.mp4",
+          "frames": 151,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "video23_split_00000.mp4",
+          "frames": 151,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "video34_split_00000.mp4",
+          "frames": 151,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "video36_split_00000.mp4",
+          "frames": 151,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "charcha": {
+      "fvd_vs_GT": 1374.288,
+      "n_videos": 25,
+      "n_clips": 100,
+      "failures": [],
+      "videos": [
+        {
+          "file": "1-custom-character__ashu_real_flowers.mp4",
+          "frames": 2016,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__ashu_real_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__ashu_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__charlie_real_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__kevinleven_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__mule_cartoon_flowers.mp4",
+          "frames": 2016,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__mule_cartoon_jungleBook_hindi.mp4",
+          "frames": 1146,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__mule_sketch_aha.mp4",
+          "frames": 2441,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__prof_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__rumamba_anime_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__rumamba_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "1-custom-character__rumamba_west_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "2-custom-characters__ashu_mule_real_TOP.mp4",
+          "frames": 2122,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "2-custom-characters__ashu_scar_real_TOP.mp4",
+          "frames": 2122,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "anime-style__woman_anime_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cartoon-style__narrative_cartoon_flowers.mp4",
+          "frames": 2016,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "no-style__narrative_vanilla_flowers.mp4",
+          "frames": 2016,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "realistic-style__man_real_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "realistic-style__narrative_real_fireflies.mp4",
+          "frames": 2179,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "realistic-style__narrative_real_flowers.mp4",
+          "frames": 2016,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "realistic-style__woman_real_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "sketch-style__man_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "sketch-style__narrative_sketch_aha.mp4",
+          "frames": 2441,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "sketch-style__woman_sketch_rickroll.mp4",
+          "frames": 581,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "western-animation-style__narrative_west_viva.mp4",
+          "frames": 2391,
+          "fps": 10.0,
+          "stride": 1,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    },
+    "yingvideo": {
+      "fvd_vs_GT": 5158.385,
+      "n_videos": 24,
+      "n_clips": 96,
+      "failures": [],
+      "videos": [
+        {
+          "file": "cam_s1_left.mp4",
+          "frames": 175,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s1_right.mp4",
+          "frames": 175,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s1_zoomin.mp4",
+          "frames": 175,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s1_zoomout.mp4",
+          "frames": 175,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s2_left.mp4",
+          "frames": 165,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s2_right.mp4",
+          "frames": 165,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s2_zoomin.mp4",
+          "frames": 165,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s2_zoomout.mp4",
+          "frames": 165,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s3_left.mp4",
+          "frames": 200,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s3_right.mp4",
+          "frames": 200,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s3_zoomin.mp4",
+          "frames": 200,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "cam_s3_zoomout.mp4",
+          "frames": 200,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_1.mp4",
+          "frames": 150,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_2.mp4",
+          "frames": 202,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_3.mp4",
+          "frames": 180,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_4.mp4",
+          "frames": 389,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_5.mp4",
+          "frames": 243,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "clip_6.mp4",
+          "frames": 302,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "compare_ours_1.mp4",
+          "frames": 250,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "compare_ours_2.mp4",
+          "frames": 325,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "compare_ours_3.mp4",
+          "frames": 405,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "full_demo.mp4",
+          "frames": 4342,
+          "fps": 30.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "long_mv_1.mp4",
+          "frames": 539,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        },
+        {
+          "file": "long_mv_2.mp4",
+          "frames": 875,
+          "fps": 25.0,
+          "stride": 2,
+          "clips": 4,
+          "reader": "decord"
+        }
+      ]
+    }
+  }
+}

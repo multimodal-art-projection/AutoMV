@@ -243,11 +243,23 @@ result/{music_name}/
 
 We evaluate AutoMV with:
 
-### **Objective Metric**
+### **Objective Metrics (M2VBench)**
 
-- **ImageBind Score (IB)** — cross-modal similarity
-between audio and visual content
-The relevant code is in  evaluate/IB.
+The objective evaluation in Section 3.3 and Table 2 now includes **ImageBind
+(IB), CLAP, FVD, Beat, and LSE-D/LSE-C**. See
+[`evaluate/objective/`](evaluate/objective/README.md) for runnable entry points,
+separate dependency environments, the 30-song timing boundaries, archived
+per-song scores, and exact protocol definitions.
+
+Rebuild the archived IB/CLAP/FVD/Beat table without model dependencies:
+
+```bash
+python3 evaluate/objective/summarize.py
+```
+
+The LSE entry point uses official SyncNet. Its historical table values are
+included as manuscript values; the original per-video LSE records and singing
+selections were not found in the local evaluation archive.
 
 ### **LLM-Based Evaluation (12 Criteria)**
 

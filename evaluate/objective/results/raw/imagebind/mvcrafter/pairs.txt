@@ -1,0 +1,11 @@
+/root/bayes-tmp/ib_audio/mvcrafter/Idol.wav	/root/vbench_videos/mvcrafter/Idol.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/Jingle_Bells.wav	/root/vbench_videos/mvcrafter/Jingle_Bells.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/Levitating.wav	/root/vbench_videos/mvcrafter/Levitating.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/Magic.wav	/root/vbench_videos/mvcrafter/Magic.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/The_Wolf.wav	/root/vbench_videos/mvcrafter/The_Wolf.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/We_Will_Rock_You.wav	/root/vbench_videos/mvcrafter/We_Will_Rock_You.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/Wedding_March.wav	/root/vbench_videos/mvcrafter/Wedding_March.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/believer.wav	/root/vbench_videos/mvcrafter/believer.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/gods.wav	/root/vbench_videos/mvcrafter/gods.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/onesummersday.wav	/root/vbench_videos/mvcrafter/onesummersday.mp4
+/root/bayes-tmp/ib_audio/mvcrafter/pokerface.wav	/root/vbench_videos/mvcrafter/pokerface.mp4

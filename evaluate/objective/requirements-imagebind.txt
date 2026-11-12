@@ -1,0 +1,11 @@
+# Separate Linux environment, Python 3.10/3.11, with ffmpeg installed.
+numpy==1.26.4
+torch==2.4.1
+torchvision==0.19.1
+torchaudio==2.4.1
+timm==0.9.16
+einops==0.8.0
+ftfy==6.2.0
+iopath==0.1.10
+decord==0.6.0
+imagebind @ git+https://github.com/facebookresearch/ImageBind.git@53680b02d7e37b19b124fa37bae4b6c98c38f5be

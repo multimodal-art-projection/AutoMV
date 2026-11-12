@@ -1,0 +1,12 @@
+# Main Beat/CLAP environment, Python 3.10 or 3.11. Install ffmpeg separately.
+numpy==1.26.4
+scipy==1.13.1
+opencv-python-headless==4.10.0.84
+librosa==0.10.2.post1
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+transformers==4.44.2
+Pillow>=10,<12
+# Optional: required only by caption.py, which calls the Gemini API.
+google-genai>=1,<2

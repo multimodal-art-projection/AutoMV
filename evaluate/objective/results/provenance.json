@@ -1,0 +1,387 @@
+{
+  "source_commit": "4a7f65a549372313494f503732badb92f477a16d",
+  "scope": "Objective metrics in Section 3.3 and Table 2 of the user-supplied NAACL manuscript.",
+  "files": [
+    {
+      "path": "results/raw/metric4c_groundtruth.jsonl",
+      "source_path": "mvmetrics/results/metric4c_groundtruth.jsonl",
+      "sha256": "70895b56c17e99f73769a13e7ec3691e69046c1890bfa565716b08a19071bd37"
+    },
+    {
+      "path": "results/raw/metric3c_clapgen_cap_groundtruth.jsonl",
+      "source_path": "mvmetrics/results/metric3c_clapgen_cap_groundtruth.jsonl",
+      "sha256": "68dea8784b08af9eab3d61452bffe04bee245665c90851d8f8342edcd1c917a9"
+    },
+    {
+      "path": "results/raw/tags_groundtruth.jsonl",
+      "source_path": "mvmetrics/results/tags_groundtruth.jsonl",
+      "sha256": "d39c9380e3f30c1425634be435a0e8953dd394fa7aeaf302caa1c38f810874a0"
+    },
+    {
+      "path": "results/raw/metric4c_lip.jsonl",
+      "source_path": "mvmetrics/results/metric4c_lip.jsonl",
+      "sha256": "8a41f7d3604696880b48cc4ab2505169cefaf64be026d8216f0fd52d7badb7ed"
+    },
+    {
+      "path": "results/raw/metric3c_clapgen_cap_lip.jsonl",
+      "source_path": "mvmetrics/results/metric3c_clapgen_cap_lip.jsonl",
+      "sha256": "c42c79ab0ab23baa6f571b1b0ad6918dd20f159e30524e64c59a32e306a023f9"
+    },
+    {
+      "path": "results/raw/tags_lip.jsonl",
+      "source_path": "mvmetrics/results/tags_lip.jsonl",
+      "sha256": "3ed1cae5d654c68915730b207e568fa167c599f50b3b07da8bde82b4836c85eb"
+    },
+    {
+      "path": "results/raw/metric4c_baseline1.jsonl",
+      "source_path": "mvmetrics/results/metric4c_baseline1.jsonl",
+      "sha256": "5bb2e5b748accbce0d20a1f060e963a40f65c1ba14ff97f25f4aea89da6ee239"
+    },
+    {
+      "path": "results/raw/metric3c_clapgen_cap_baseline1.jsonl",
+      "source_path": "mvmetrics/results/metric3c_clapgen_cap_baseline1.jsonl",
+      "sha256": "015dc746a914b985e383ac6b24b47161adbf8f2bc5ecbf7b2666b19b43918cbe"
+    },
+    {
+      "path": "results/raw/tags_baseline1.jsonl",
+      "source_path": "mvmetrics/results/tags_baseline1.jsonl",
+      "sha256": "9e1214c0a7e619abdddac1ae5defd2d5bb3c78e2f681849400fb35ee6e3d9649"
+    },
+    {
+      "path": "results/raw/metric4c_baseline2.jsonl",
+      "source_path": "mvmetrics/results/metric4c_baseline2.jsonl",
+      "sha256": "7ff719f71e16c47b6ff15490aedad82a4910f6e1fd136881b87ec511444cdfe3"
+    },
+    {
+      "path": "results/raw/metric3c_clapgen_cap_baseline2.jsonl",
+      "source_path": "mvmetrics/results/metric3c_clapgen_cap_baseline2.jsonl",
+      "sha256": "6ffb5e9b8abf5bcbe0ff3b1a5ee1d2f598dc5657d0155b007f3485a04ce91161"
+    },
+    {
+      "path": "results/raw/tags_baseline2.jsonl",
+      "source_path": "mvmetrics/results/tags_baseline2.jsonl",
+      "sha256": "5a0a9c173b68ba71648b0b043c0bc6dfabe9f28d8958e5545c9bf05c5f6c9b95"
+    },
+    {
+      "path": "results/raw/metric4c_music2video.jsonl",
+      "source_path": "mvmetrics/results/metric4c_music2video.jsonl",
+      "sha256": "81be38c5049faa8b685ef717aa6354760e11e79ffb077aa5558d8d183b0ddc62"
+    },
+    {
+      "path": "results/raw/metric3c_clapgen_cap_music2video.jsonl",
+      "source_path": "mvmetrics/results/metric3c_clapgen_cap_music2video.jsonl",
+      "sha256": "2e88187976a451864ee7a68c0d9962674a5d524a7fb3f9c269f2cfc409e77966"
+    },
+    {
+      "path": "results/raw/tags_music2video.jsonl",
+      "source_path": "mvmetrics/results/tags_music2video.jsonl",
+      "sha256": "57f80b97e01e409845d46dd02e5d68fc3d4b9110ae8b084518bfb83861244312"
+    },
+    {
+      "path": "results/raw/imagebind/GroundTruth/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/GroundTruth/metrics.json",
+      "sha256": "693af93736323e9bfa6e0012fd5fd29a7d8be9678e47a46cdd01353b9d8d0996"
+    },
+    {
+      "path": "results/raw/imagebind/GroundTruth/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/GroundTruth/pairs.txt",
+      "sha256": "0263b502a55af86cd48119995ce010dd1ccbecebcb8707be397b4cdc2731fcb8"
+    },
+    {
+      "path": "results/raw/imagebind/AutoMV/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/AutoMV/metrics.json",
+      "sha256": "db6743a97ce1337f5d7e784e07c1e617d1c435ba039944a0020e1492983ddf90"
+    },
+    {
+      "path": "results/raw/imagebind/AutoMV/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/AutoMV/pairs.txt",
+      "sha256": "ca6ff88c09ac6eb3178b2b3d79c8ff6df1c6d8456c4e11a3dabc9f3aeefa0eec"
+    },
+    {
+      "path": "results/raw/imagebind/baseline1/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/baseline1/metrics.json",
+      "sha256": "8322552c4d76cf8d93b668d1191ea11d456b560a5414822d8c95bd3a5a676c48"
+    },
+    {
+      "path": "results/raw/imagebind/baseline1/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/baseline1/pairs.txt",
+      "sha256": "8b07f0749ab690f0a7608e8a0648f2147f7fb2ca26658670555930010c62002b"
+    },
+    {
+      "path": "results/raw/imagebind/baseline2/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/baseline2/metrics.json",
+      "sha256": "de622c915f5438e39ebdc961d1ae66550ab58b29d757ea103e44d155c29d1e3d"
+    },
+    {
+      "path": "results/raw/imagebind/baseline2/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/baseline2/pairs.txt",
+      "sha256": "8a9b81065e7ed78b1bd16d5b8b67abc4109569abc59c152203ca43793d67bd3b"
+    },
+    {
+      "path": "results/raw/imagebind/music2video/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/music2video/metrics.json",
+      "sha256": "e57bd2c19b68c25e452717d2c8fa96b0a176ce7f447156eb82d8364e5f5341fc"
+    },
+    {
+      "path": "results/raw/imagebind/music2video/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/music2video/pairs.txt",
+      "sha256": "46bb5d7a0ce476a9fb371972433169290199645c5002b706492523b49d380f5f"
+    },
+    {
+      "path": "results/raw/imagebind/mvcrafter/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/mvcrafter/metrics.json",
+      "sha256": "a139cce35c0ea246b9787ed7c32382097ee2ec026aea180b05da0eb9c970d407"
+    },
+    {
+      "path": "results/raw/imagebind/mvcrafter/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/mvcrafter/pairs.txt",
+      "sha256": "7a3d3cfc830cbf283e2ecc3f770224d754218eb284f94c0600313e88b657d37d"
+    },
+    {
+      "path": "results/raw/imagebind/charcha/metrics.json",
+      "source_path": "vbench_eval/imagebind_results/charcha/metrics.json",
+      "sha256": "74dceb6c0de60c422b42bce08bcf577297f9a262e66fc318d374665c824ad7dd"
+    },
+    {
+      "path": "results/raw/imagebind/charcha/pairs.txt",
+      "source_path": "vbench_eval/imagebind_results/charcha/pairs.txt",
+      "sha256": "0cb2de6b87de23728f0eab86fb351ae12134f9c043f13b441f753ee19a6a8e2c"
+    },
+    {
+      "path": "results/raw/fvd_results.json",
+      "source_path": "vbench_eval/fvd_results/fvd_results.json",
+      "sha256": "1624120b5523d90d8faff0265a13d7dc70be1344c2554e15e49a91a16d4a7a84"
+    },
+    {
+      "path": "results/raw/external_demos.jsonl",
+      "source_path": "mvmetrics/results/related_demos.jsonl",
+      "sha256": "217302ae79c5adb831f52bacd1ad45f1b63e3d2c72a47618781f4ffdca2f7468",
+      "transformed": true
+    },
+    {
+      "path": "results/song_metadata.csv",
+      "source_path": "mvmetrics/results/language_comparison/song_metadata.csv",
+      "sha256": "55b838abc3f51ae615fef280f55a3b3a9f31f390557f6885be8f7d2c833b32e1",
+      "transformed": true,
+      "transformation": "CSV newlines normalized to LF"
+    },
+    {
+      "path": "segments/10.json",
+      "source_path": "mvmetrics/lyrics_whisper/10.json",
+      "sha256": "74ea435493b1474a770e0aa3ba85b295cc2056e8876ff2171b584f8a23241c9d",
+      "transformed": true
+    },
+    {
+      "path": "segments/11.json",
+      "source_path": "mvmetrics/lyrics_whisper/11.json",
+      "sha256": "57dd7a454703b007cba6e37cbddb742a69ef29e71dda93a167dbdbaa83fd3e38",
+      "transformed": true
+    },
+    {
+      "path": "segments/12.json",
+      "source_path": "mvmetrics/lyrics_whisper/12.json",
+      "sha256": "b68a88b66ffdb7cc79e251503fd6b0e965cf107b2dc0d51a597dde8993e15225",
+      "transformed": true
+    },
+    {
+      "path": "segments/13.json",
+      "source_path": "mvmetrics/lyrics_whisper/13.json",
+      "sha256": "5c238185e91c3a3d451d458d59446bf31532622bfa1fbda12f6054e797d24f0d",
+      "transformed": true
+    },
+    {
+      "path": "segments/15.json",
+      "source_path": "mvmetrics/lyrics_whisper/15.json",
+      "sha256": "7a0c5cd69ff34beca10124adcb131685b4438ff717b8407830b896994d22fecd",
+      "transformed": true
+    },
+    {
+      "path": "segments/16.json",
+      "source_path": "mvmetrics/lyrics_whisper/16.json",
+      "sha256": "c26257026fe50185a1fdb30d2d7c9c733bbd893fdf58b444e681e43df6bbca35",
+      "transformed": true
+    },
+    {
+      "path": "segments/17.json",
+      "source_path": "mvmetrics/lyrics_whisper/17.json",
+      "sha256": "af2c26121ed03d804eb9768bfcfa71ed2355a9d7df5dd662253f307ba3d31ed3",
+      "transformed": true
+    },
+    {
+      "path": "segments/18.json",
+      "source_path": "mvmetrics/lyrics_whisper/18.json",
+      "sha256": "dfa9cbb2f01a4f7af4926ee77e7c42ff88bceaa456c5e39f2255d1b136a7a384",
+      "transformed": true
+    },
+    {
+      "path": "segments/19.json",
+      "source_path": "mvmetrics/lyrics_whisper/19.json",
+      "sha256": "02bb7809921484c6723a8d47bde665001d3b30cfc7480c7ee844c97d0a17b105",
+      "transformed": true
+    },
+    {
+      "path": "segments/20.json",
+      "source_path": "mvmetrics/lyrics_whisper/20.json",
+      "sha256": "f25671092e7b2da66b5202395b647220fa03fab92ebd272a99b263c551715ac4",
+      "transformed": true
+    },
+    {
+      "path": "segments/23.json",
+      "source_path": "mvmetrics/lyrics_whisper/23.json",
+      "sha256": "a6f3d1c0e973d0d6e73e63a7a33c66380318e5729c433094dcd7fa5dfa662ad6",
+      "transformed": true
+    },
+    {
+      "path": "segments/29.json",
+      "source_path": "mvmetrics/lyrics_whisper/29.json",
+      "sha256": "bb6254f2531148ce567824538883b12db740383548c6ad4a5349850ab1307bd5",
+      "transformed": true
+    },
+    {
+      "path": "segments/30.json",
+      "source_path": "mvmetrics/lyrics_whisper/30.json",
+      "sha256": "f196d3021f36bef5d9c7a0e5fbb49620c70fee50bef00cca989895826cb3cc8b",
+      "transformed": true
+    },
+    {
+      "path": "segments/31.json",
+      "source_path": "mvmetrics/lyrics_whisper/31.json",
+      "sha256": "e97cd8f8c89426e5e8a879da2e911edb63859740fef4c0620edd357cfdd5d3b0",
+      "transformed": true
+    },
+    {
+      "path": "segments/33.json",
+      "source_path": "mvmetrics/lyrics_whisper/33.json",
+      "sha256": "4cb9e18fb77c5add930d462e8e58ffff74cf32b454508da6bd414453d10d09cc",
+      "transformed": true
+    },
+    {
+      "path": "segments/35.json",
+      "source_path": "mvmetrics/lyrics_whisper/35.json",
+      "sha256": "fc9da89846608ef9d3f39396c0c7e10c660a09ccb28eb463f15a43f898963da8",
+      "transformed": true
+    },
+    {
+      "path": "segments/37.json",
+      "source_path": "mvmetrics/lyrics_whisper/37.json",
+      "sha256": "c0daaf55a3999f8760eac192774eff3d565f88ed41893b1c52d6b5e066dcaaa2",
+      "transformed": true
+    },
+    {
+      "path": "segments/38.json",
+      "source_path": "mvmetrics/lyrics_whisper/38.json",
+      "sha256": "b1aa282f85157d00734a73f481df826c29da540bab7dcff57c3d598ceee31004",
+      "transformed": true
+    },
+    {
+      "path": "segments/4.json",
+      "source_path": "mvmetrics/lyrics_whisper/4.json",
+      "sha256": "499b05541723d2c637e141a97406fa6b13511b6f28fafe3101ddc854db714b51",
+      "transformed": true
+    },
+    {
+      "path": "segments/44.json",
+      "source_path": "mvmetrics/lyrics_whisper/44.json",
+      "sha256": "f1e74bb1d085e00d00a0cbe2f2909703be74f55c9dce6734b067a8075c90a97f",
+      "transformed": true
+    },
+    {
+      "path": "segments/45.json",
+      "source_path": "mvmetrics/lyrics_whisper/45.json",
+      "sha256": "1b90eb0978640f8abb3206b266d649c39d699c61a9479c8fd9e3d9676e48a2e5",
+      "transformed": true
+    },
+    {
+      "path": "segments/46.json",
+      "source_path": "mvmetrics/lyrics_whisper/46.json",
+      "sha256": "1dd7b23d41ce6baaea71c5fa417b76da68aa0157cd779bcfae60daf80f679ab0",
+      "transformed": true
+    },
+    {
+      "path": "segments/47.json",
+      "source_path": "mvmetrics/lyrics_whisper/47.json",
+      "sha256": "abd5b3bcfb13efb50e56b5af40882d5e93fe051137d300c5d579b301b4d3f47f",
+      "transformed": true
+    },
+    {
+      "path": "segments/48.json",
+      "source_path": "mvmetrics/lyrics_whisper/48.json",
+      "sha256": "4fbe4f200cbc71a88e2770ba0b62d6edbf3b969d66062303c2d703983ba78153",
+      "transformed": true
+    },
+    {
+      "path": "segments/49.json",
+      "source_path": "mvmetrics/lyrics_whisper/49.json",
+      "sha256": "af3427b82b9a02f44c812ddbc54b0390c9bbe3e9bed394987386d589769f8a0f",
+      "transformed": true
+    },
+    {
+      "path": "segments/50.json",
+      "source_path": "mvmetrics/lyrics_whisper/50.json",
+      "sha256": "1777e16b8a196781a85fcf3b2d3415b881311b6f03c9d10382bbe13b4ee7ae65",
+      "transformed": true
+    },
+    {
+      "path": "segments/51.json",
+      "source_path": "mvmetrics/lyrics_whisper/51.json",
+      "sha256": "b199ad4a327d66e09f473288beaea660aeb76f97f3cb3ff86adf47a5fc330915",
+      "transformed": true
+    },
+    {
+      "path": "segments/6.json",
+      "source_path": "mvmetrics/lyrics_whisper/6.json",
+      "sha256": "99bfa321d5c3cae9fe232e5c1e8968ab68bef54540427162c5dedcbc7aa88e44",
+      "transformed": true
+    },
+    {
+      "path": "segments/8.json",
+      "source_path": "mvmetrics/lyrics_whisper/8.json",
+      "sha256": "c9e1285225ae376d252c10a792d6519aefa889d16bc1023c550cf7ee16809223",
+      "transformed": true
+    },
+    {
+      "path": "segments/9.json",
+      "source_path": "mvmetrics/lyrics_whisper/9.json",
+      "sha256": "d91012063401e246f8827ef55361c1552092e3155607d9cc1f2357b5ed9bbab4",
+      "transformed": true
+    }
+  ],
+  "code_sources": [
+    {
+      "source_path": "mvmetrics/metric4c_beat.py",
+      "sha256": "948b8491af685f2b04dc3e1a19c2444b43d86e4592a3862969ea991ab3dbc9c7"
+    },
+    {
+      "source_path": "mvmetrics/eval_batch.py",
+      "sha256": "add8dbefe8b240923d5d461c606439dc4ea1723b3cc127659330fd1d7a02617e"
+    },
+    {
+      "source_path": "mvmetrics/metric3c_clap.py",
+      "sha256": "ff6fee64238e268388e11fdbc211181a8c5f3117bdcfc0842cf6dcf1e38a038a"
+    },
+    {
+      "source_path": "mvmetrics/gemini_tagger.py",
+      "sha256": "53911164f8ed95e50f56b7eb846912ebc7880fce33f433d6c07e3e2826b77920"
+    },
+    {
+      "source_path": "vbench_eval/server_artifacts/fvd_compute.py",
+      "sha256": "2b1263611c7de170c9b7af34eab847aa7c5b284bd62db98e15cb2cb1ab647230"
+    }
+  ],
+  "paper": {
+    "title": "AutoMV: Lyric-Grounded Multi-Agent Planning for Full-Song Music Video Generation",
+    "scope": "Section 3.3 and Table 2",
+    "sha256": "4ff6ba455e7663b974357963a7ff15a60fe7641d600a1609def2bbbcb90d3042",
+    "lse_provenance": "Manuscript values only; original per-video records and face/singing selections were not found."
+  },
+  "upstream_adapters": {
+    "syncnet": {
+      "repository": "https://github.com/joonson/syncnet_python",
+      "commit": "907c0b579c2e2d83f0eae1b2ac9e720cde4e5623"
+    },
+    "imagebind": {
+      "repository": "https://github.com/facebookresearch/ImageBind",
+      "commit": "53680b02d7e37b19b124fa37bae4b6c98c38f5be"
+    }
+  }
+}
